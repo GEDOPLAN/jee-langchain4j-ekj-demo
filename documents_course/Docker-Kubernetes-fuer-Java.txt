@@ -1,0 +1,61 @@
+Schulung: Docker und Kubernetes für Java-Entwickler
+
+Kompakte Einführung in die Entwicklung und den Betrieb containerbasierter Java-Anwendungen
+
+    Kompakter Kurs mit allem Wesentlichen über Docker und Kubernetes aus Sicht der Softwareentwicklung mit Java / JEE
+    Umfangreiche Demos und Übungsanteile
+    Die Teilnehmer nutzen eine persönliche Docker/Kubernetes-Umgebung, die auch nach dem Kurs noch zur Verfügung steht.
+
+Beschreibung
+Dieses Seminar führt in die Nutzung von Docker und Kubernetes ein. Der Fokus liegt auf den für die Entwicklung von containerisierten Java/JEE- Anwendungen wichtigen Werkzeugen, Konzepten und Vorgehensweisen der Container-Umgebung Docker und der Orchestrierungsplattform Kubernetes. Im Laufe des Kurses erstellen Sie aus Java-SE- und -EE-Anwendungen lauffähige Container-Images, betreiben sie statuslos oder mit Datenbank- Persistenz in einem Kubernetes-Cluster und nutzen die diversen Verwaltungs- und Skalierungsmöglichkeiten der Zielumgebung.
+
+Agenda
+Docker
+    Motivation für den Einsatz von Container-Images
+    Gegenüberstellung virtuelle Maschine vs. Container
+    Begrifflichkeiten
+        Image
+        Registry
+        Container
+    Docker-Kommando
+        Docker-Images laden, verwalten, starten
+        Port-Mapping
+        Logs einsehen
+        Kommandos im Container ausführen
+    Image-Erstellung
+        Dockerfiles
+        Java/JEE-Anwendung in Image packen
+        Eigene Basisimages erstellen, bspw. für provisionierte EE-Server
+        Multi-Stage-Builds zur Optimierung der Image-Größe nutzen
+    Volumes einrichten und nutzen
+    Registrys einsetzen
+Kubernetes
+    Motivation für die Orchestrierung von Containern mit Kubernetes
+    Grundsätzlicher Aufbau der Plattform
+    Deklarativer Ansatz
+    YAML-Files zur Beschreibung von Kubernetes-Objekten
+    Building Blocks von Kubernetes
+        Pod
+        Deployment, Replica Set
+        Service
+        Volume, Volume Claim, Persistent Volume Claim, Storage Provider
+        Nodeport, Loadbalancer und Ingress
+        Namespace
+        Secret
+        Config Map
+        Stateful Set
+        Job
+    Vorbereitung und Überwachung
+        Init Container
+        Readiness und Liveness Probe
+
+Die Themen werden mit übergreifenden Übungen vertieft. Dabei kommen realistische Beispiele von Java/JEE-Anwendungen zum Einsatz: Standalone- Anwendungen, EE-Anwendungen, Persistenz mit Datenbanken.
+
+
+Teilnehmerkreis und Voraussetzungen
+Dieser Kurs richtet sich an Software-Entwickler*innen, Projektleiter*innen und Architekt*innen, die Java/JEE-Anwendungen für Container-Umgebungen entwickeln und in Docker/Kubernetes betreiben wollen.
+Grundlegende Java-Kenntnisse werden vorausgesetzt. Kenntnisse über Linux und Networking sind hilfreich, werden aber nicht vorausgesetzt.
+
+
+Dauer
+3 Tage

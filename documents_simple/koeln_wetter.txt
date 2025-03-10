@@ -1,0 +1,5 @@
+Wetterbericht Köln:
+
+Heute: 13°C/22°C sonnig
+Morgen: 14°C/24°C sonnig
+Übermorgen: 12°C/24°C sonnig

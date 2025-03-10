@@ -1,0 +1,46 @@
+Schulung: Java Grundlagen
+
+Einführung in die moderne, professionelle Programmierung mit Java SE 17
+
+    Umfassender Einstieg in die Konzepte und objektorientierte Entwicklung mit Java SE.
+    Wichtige Aspekte und Besonderheiten der Java-Entwicklung.
+    Vertiefung der Inhalte in Beispielen und praxisnahen Übungen.
+    Inkl. Q&A-Session nach dem Kurs, s. Agenda
+
+Beschreibung
+In dieser Schulung erlernen Sie die objektorientierte Anwendungsentwicklung mit der Programmiersprache Java. Dazu wird Ihnen ein umfassender Überblick über Java SE vermittelt, also die „Java Platform, Standard Edition“.
+Wir machen Sie mit den Grundlagen der objektorientierten Programmierung vertraut und erklären Ihnen deren Umsetzung in Java. Anwendungsentwickler bekommen hier die grundlegenden Sprachkonstrukte von Java vermittelt und erhalten einen Überblick über den aktuellen Stand der Java-Klassenbibliothek.
+In umfangreichen Übungen können die Teilnehmer das Erlernte sofort in die Praxis umsetzen. Am Ende der Schulung beherrschen die Teilnehmer das Entwickeln von einfachen Anwendungen mit Java.
+Wir bieten allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierten Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Agenda
+Eigenschaften der Programmier-Plattform Java
+    Grundlegende Konzepte der Programmiersprache Java
+    Java-Editionen
+    Java Development Kit (JDK) und Entwicklungswerkzeuge
+    Einführung in die integrierte Java-Entwicklungsumgebung (IntelliJ / Eclipse / NetBeans)
+Sprachkonstrukte der Programmiersprache Java
+    Datentypen, Anweisungen, Kontrollstrukturen, Felder
+    Objektorientierung in Java (Klassen, Interfaces, Enumerations, Methoden, Vererbung, Polymorphismus usw.)
+Anwendungen und Bibliotheken in Java
+    Überblick über die Standard-Bibliotheken von Java
+    Nutzung von Datentypen für Zeichenketten, Datum/Uhrzeit, Verzeichnisse/Dateien usw.
+    Java-Archive für die Paketierung von Anwendungen und Bibliotheken
+Wichtige Aspekte der Java-Programmierung
+    Fehlerbehandlung (Exception Handling)
+    Parametrisierte Datentypen (Generics)
+    Datenstrukturen (Collections)
+    Metadaten (Annotations)
+    Funktionale Programmierung in Java (Lambda Expressions)
+    Programm-Dokumentation mit Javadoc
+
+Die behandelten Themen werden vielfach durch kleine Demo-Beispiele praktisch veranschaulicht. Im umfangreichen Übungsteil programmieren die Teilnehmer unter Anleitung des Trainers und selbständig eine praxisnahe Java-Anwendung. So lernen auch Programmierer ohne Vorkenntnisse der Objektorientierung schnell und einfach den Einsatz von Java für die Anwendungsentwicklung.
+
+Q&A-Session nach dem Kurs
+Wir bieten allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierten Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Teilnehmerkreis und Voraussetzungen
+Die Schulung richtet sich an Programmierer und Anwendungsentwickler. Sie sind hier richtig aufgehoben, wenn Sie bereits mit einer anderen objektorientierten Programmiersprache (C++, C#, Delphi, Smalltalk usw.) gearbeitet haben oder bislang mit eher prozeduralen Programmiersprachen (C, VB, SAP/ABAP usw.) in der Software-Entwicklung tätig sind. Auch als Neueinsteiger in die professionelle Software-Entwicklung erhalten Sie in dieser Schulung die erforderliche „hands on“ Praxis. Sie sollten ein solides Grundverständnis der Programmierung mitbringen.
+
+Dauer
+4 Tage

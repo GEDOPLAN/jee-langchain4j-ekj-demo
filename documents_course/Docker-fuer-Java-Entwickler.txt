@@ -1,0 +1,39 @@
+Schulung: Docker für Java-Entwickler
+
+Einführung in die Nutzung und Erstellung von Docker Images (nicht nur) für Java-Anwendungen
+
+    Nutzung und Verwaltung von Docker Images
+    Erstellung von Docker Images für Anwendungen auf Basis von Java, Java EE/Jakarta EE oder Spring Boot
+    Umfangreiche Demos und Übungsanteile
+
+Beschreibung
+Dieses Seminar führt in die Verwendung von Docker ein und zeigt, wie Java-Anwendungen containerisiert werden können. Im Laufe des Kurses erstellen Sie aus Java-SE- und -EE-Anwendungen lauffähige Container-Images und betreiben sie statuslos und mit Datenbank-Persistenz.
+
+Agenda
+    Motivation für den Einsatz von Container-Images
+    Gegenüberstellung virtuelle Maschine vs. Container
+    Begrifflichkeiten
+        Image
+        Registry
+        Container
+    Docker-Kommando
+        Docker-Images laden, verwalten, starten
+        Port-Mapping
+        Logs einsehen
+        Kommandos im Container ausführen
+    Image-Erstellung
+        Dockerfiles
+        Java/JEE-Anwendung in Image packen
+        Eigene Basisimages erstellen, bspw. für provisionierte EE-Server
+        Multi-Stage-Builds zur Optimierung der Image-Größe nutzen
+    Volumes einrichten und nutzen
+    Registrys einsetzen
+
+Die Themen werden mit übergreifenden Übungen vertieft. Dabei kommen realistische Beispiele von Java/JEE-Anwendungen zum Einsatz: Standalone-Anwendungen, EE-Anwendungen, Persistenz mit Datenbanken.
+
+Teilnehmerkreis und Voraussetzungen
+Dieser Kurs richtet sich an Software-Entwickler*innen, Projektleiter*innen und Architekt*innen, die Java/JEE-Anwendungen für Container-Umgebungen entwickeln und betreiben wollen.
+Grundlegende Java-Kenntnisse werden vorausgesetzt. Kenntnisse über Linux und Networking sind hilfreich, werden aber nicht vorausgesetzt.
+
+Dauer
+1 Tag

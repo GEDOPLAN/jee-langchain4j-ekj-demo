@@ -1,0 +1,54 @@
+Schulung: Jakarta EE Masterclass
+
+Anwendungsentwicklung auf Basis von Jakarta EE / Java EE
+
+    Aufbaukurs für fortgeschrittene Techniken und Konzepte der JEE Entwicklung
+    Praktische Anwendung der Inhalte in umfangreichen Demo- und Übungsanteilen
+    Vertieft und ergänzt bereits vorhandene JEE Kenntnisse ideal
+    Inkl. Q&A-Session nach dem Kurs, s. Agenda
+
+Beschreibung
+JEE stellt eine einfache und dennoch mächtige Umgebung für Enterprise-Anwendungen dar. In diesem Seminar vertiefen Sie Ihre Grundkenntnisse über Jakarta EE / Java EE in den verschiedenen Bereichen der Persistenz und Geschäftslogik. Im Kurs wird die Version 10 der Plattform verwendet, Unterschiede zu Vorversionen werden deutlich gemacht.
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Agenda
+    Architekturen und Konzepte von JEE
+        Aufbau und Bestandteile von JEE-Anwendungen
+        Full Profile, Web Profile, Micro Profile
+        Klassische Application Server vs. JAR Deployments vs. Cloud Native
+    Jakarta Persistence (JPA)
+        Grundlagen-Auffrischung (Architektur, Persistence Units, Transaktionen, Relationen, Vererbung)
+        Secondary Tables
+        Tupel-Selects, Aggregatfunktionen
+        Native SQL-Queries
+        Die Criteria Query API
+        Bulk Updates
+        Lifecycle-Methoden und Listener
+        Caching mit First und Second Level Cache
+        Providerspezifische Optimierungen
+    Jakarta Concurrency
+    Contexts and Dependency Injection (CDI)
+        Grundlagen-Auffrischung (Beans, Producer, Qualifier, Alternatives, Scopes)
+        Bedingte und transaktionale Event-Verarbeitung
+        Bean Manager
+        Instance Selection
+        Portable/Build compatible Extensions
+        Entwicklung eigener Extensions
+    Microprofile
+        REST-Client
+        Fault Tolerance
+        Open Telemetry
+        OpenID Connect
+        Messaging
+    Jakarta Runtime Frameworks
+        REST-APIs mit Quarkus
+
+Q&A-Session nach dem Kurs
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Teilnehmerkreis und Voraussetzungen
+Es werden Vorkenntnisse vorausgesetzt wie sie z.B. in unserem Kurs Schulung: Jakarta EE 10 Intensivkurs vermittelt werden.
+Dieser Kurs richtet sich an Java-Entwickler*innen, die JEE bereits kennen und die ihr Wissen in den verschiedenen Bereichen vertiefen wollen.
+
+Dauer
+4 Tage

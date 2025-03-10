@@ -1,0 +1,95 @@
+###
+POST http://localhost:8080/api/ai/simple
+Content-Type: text/plain
+
+Erzähle mir etwas über Bielefeld in 2 Sätzen?
+
+###
+POST http://localhost:8080/api/ai/simpleCowboy
+Content-Type: text/plain
+
+Erzähle mir etwas über Bielefeld in 2 Sätzen?
+
+###
+POST http://localhost:8080/api/ai/simpleAnfrage
+Content-Type: text/plain
+
+Erzähle mir etwas über Bielefeld in 2 Sätzen?
+
+###
+POST http://localhost:8080/api/ai/simpleMethod
+Content-Type: application/json
+
+{
+  "method": "System.out.println",
+  "progLang": "Java"
+}
+
+###
+POST http://localhost:8080/api/ai/simplePersonInformation
+Content-Type: text/plain
+
+Klaus Petersen ist 42 Jahre alt. Er lebt mit seiner Frau Marta in Bielefeld und sie haben 3 Kinder.
+
+###
+POST http://localhost:8080/api/ai/simplePersonInformation
+Content-Type: text/plain
+
+Klaus ist 42 Jahre alt. Er lebt mit seiner Frau Marta in Bielefeld und sie haben 3 Kinder.
+
+###
+POST http://localhost:8080/api/ai/memory/42
+Content-Type: text/plain
+
+Erzähle mir etwas über Bielefeld in 2 Sätzen?
+
+###
+POST http://localhost:8080/api/ai/memory/42
+Content-Type: text/plain
+
+Wie viele Einwohner gibt es dort?
+
+###
+POST http://localhost:8080/api/ai/rag/init
+
+###
+POST http://localhost:8080/api/ai/rag
+Content-Type: text/plain
+
+Wie ist das Wetter in Bielefeld?
+
+###
+POST http://localhost:8080/api/ai/rag/embeddingScore
+Content-Type: text/plain
+
+Wie ist das Wetter in Bielefeld?
+
+###
+POST http://localhost:8080/api/ai/rag
+Content-Type: text/plain
+
+Wie ist die Verkehrssituation auf der A2?
+
+###
+POST http://localhost:8080/api/ai/rag
+Content-Type: text/plain
+
+Kannst du mir einen Kurs empfehlen um Jakarta EE zu lernen?
+
+###
+POST http://localhost:8080/api/ai/rag
+Content-Type: text/plain
+
+Kannst du mir einen fortgeschrittenen Kurs für Jakarta EE empfehlen?
+
+###
+POST http://localhost:8080/api/ai/tools
+Content-Type: text/plain
+
+Wie ist das Wetter in Bielefeld?
+
+###
+POST http://localhost:8080/api/ai/tools
+Content-Type: text/plain
+
+Wie ist die Verkehrssituation auf der A2?

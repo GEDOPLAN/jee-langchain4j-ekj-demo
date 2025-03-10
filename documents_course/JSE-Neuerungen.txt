@@ -1,0 +1,71 @@
+Schulung: Neuerungen in Java 11 bis 21 und Ausblick auf Java 22, 23 und 24
+
+Verbesserungen und Erweiterungen für die moderne Java-Programmierung
+
+    Umfassender Überblick über die neuen Funktionalitäten und Änderungen ab Java 11.
+    Auf dem neuesten Stand der Java-Technik bei neuem Release-Zyklus und LTS-Varianten bleiben.
+    Praktische Übungen, um die neuen Features gleich anwenden zu können.
+    Inkl. Q&A-Session nach dem Kurs, s. Agenda.
+
+Beschreibung
+In diesem Kurs lernen Sie, die Neuerungen von Java ab Version 11 professionell einzusetzen.
+Sie erhalten einen umfassenden Überblick über die weitreichenden Änderungen und neuen Funktionalitäten, die ab Version 11 bis zur Version 21 zu der Programmiersprache Java dazugekommen sind. Bei Bedarf können die wesentlichen Neuerungen ab Java Version 9 am Anfang dieser Schulung kurz wiederholt werden.
+Java-Entwickler, die in ihren Projekten vielleicht noch mit einer älteren Java-Version arbeiten, profitieren von den in dieser Schulung vorgestellten Neuerungen beim Umstieg auf die LTS-Versionen 11, 17 oder 21. Aber auch wenn Sie bereits eine der höheren Versionen verwenden, wünschen Sie vielleicht eine systematische und kompakte Darstellung der neuen Programmiertechniken und deren Vertiefung durch umfangreiche Übungen. Somit wendet sich diese Schulung an Software-Entwickler, die bereits Erfahrung mit Java gesammelt haben und nun gezielt die Neuerungen von Java 11 bis 21 für die praktische Arbeit kennenlernen möchten.
+In umfangreichen praktischen Übungen entwickeln Sie Anwendungsbeispiele und lernen dadurch die weitreichenden Änderungen in den neuen Java-Versionen kennen. Dadurch zeigt sich, wie der Source-Code für neue und bestehende Java-Projeke vereinfacht werden kann, unter Beibehaltung der bewährten Typsicherheit und Ausdrucksstärke von Java.
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierten Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Agenda
+Überblick über den Stand und die Weiterentwicklung von Java
+    Versions-Überblick (LTS)
+    JDK Enhancement Proposal (JEP)
+    Incubating und Preview Feature
+    OpenJDK-Projekte: Amber, Loom, Panama und Valhalla
+Erweiterungen in der Syntax von Java
+    Typinferenz für lokale Variablen (var)
+    switch Expressions
+    Text Blocks
+Neuerungen in der Standard-API
+    Factory-Methoden für Collections und Maps
+    HTTP-Client API
+    SequencedCollection API
+    Vector API
+    Foreign Function & Memory API
+Neuerungen in einzelnen Klassen
+    Optional
+    LocalDate, Predicate, Arrays, Objects
+    String
+    Stream
+    NullPointerException
+Entfernte APIs und Bibliotheken
+    Deprecated APIs und Klassen
+    Werkzeug jdeprscan
+Algebraische Datentypen und Pattern Matching
+    Sealed Classes
+    Records
+    Pattern Matching für instanceof
+    Pattern Matching für switch
+    Pattern Matching zur Record-Dekonstruktion
+Neuerungen für die nebenläufige Programmierung
+    CompletableFuture API
+    Virtual Threads
+    Structured Concurrency
+Weitere Neuerungen im Überblick
+    JVM-Änderungen, Wegfall der Finalization
+    Java-Kommandozeile jshell
+    Direkte Programmausführung ohne Compilerlauf
+    Java Microbenchmark Harness (JMH)
+    Paketierungs-Werkzeug jpackage
+    Simple Web Server
+Ausblick: neues Typ-System für Java
+    bisheriges Typ-System: primitive Typen und Objekttypen
+    Value Classes: unveränderliche, wertbasierte Typen
+    Enhanced Primitive Boxing: Verwendung von Typen vereinheitlichen
+Q&A-Session nach dem Kurs
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierten Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Teilnehmerkreis und Voraussetzungen
+Es werden Vorkenntnisse vorausgesetzt wie sie z.B. in unserem Kurs Schulung: Java Grundlagen (Standard Edition) vermittelt werden.
+Dieser Kurs richtet sich an Software-Entwickler und -Architekten, die bereits Erfahrung mit Java bis Version 8 gesammelt haben und gezielt die wesentlichen Neuerungen von Java 11 bis 21 kennenlernen möchten. Gute Java-Kenntnisse werden vorausgesetzt. Programmiererfahrung mit Java-8-Features wie Lambda-Ausdrücke und Streams sollte vorhanden sein.
+
+Dauer
+2 Tage

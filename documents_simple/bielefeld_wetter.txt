@@ -1,0 +1,5 @@
+Wetterbericht Bielefeld:
+
+Heute: 12°C/19°C teilweise bewölkt
+Morgen: 13°C/22°C meist sonnig
+Übermorgen: 12°C/22°C teilweise bewölkt

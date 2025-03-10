@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f9;
+}
+
+pre {
+    border-radius: 0.5em;
+    overflow-x: scroll;
+    font-size: small;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 1500px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.chat-history {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    max-width: 80%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    white-space: pre-wrap;
+    font-size: medium;
+}
+
+.left {
+    background-color: #e1e1e1;
+    align-self: flex-start;
+    white-space: normal;
+}
+
+.right {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    white-space: pre-wrap;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#chat-input-text {
+    flex: 1;
+    padding: 1em;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    resize: none;
+    height: 100%;
+    margin-right: 1em;
+}
+
+#send-btn {
+    border: none;
+    padding: 1em 2em;
+    font-size: medium;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #007bff;
+    color: white;
+}
+
+#send-btn:disabled {
+    background-color: #ccc;
+}
+
+/* Faces Styles */
+
+#ai-chat-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 90%;
+    flex: 1;
+    align-items: center;
+}
+
+#ai-chat-form\:ai-service-selection {
+    padding: 10px 15px;
+    font-size: medium;
+    background-color: #2196f3;
+    color: white;
+    border-color: transparent;
+}
+
+#ai-chat-form\:chat-input-text {
+    flex: 1;
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    height: 100%;
+    margin-right: 10px;
+}
+
+#ai-chat-form\:send-btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#ai-chat-form\:send-btn:disabled {
+    background-color: #ccc;
+}

@@ -1,0 +1,79 @@
+Schulung: Java Vertiefung (Standard Edition)
+
+Fortgeschrittene Anwendungsentwicklung mit Java SE 17
+
+    Aufbaukurs für fortgeschrittene Techniken und Konzepte der Java-Entwicklung
+    Umfangreiche praktische Übungen vertiefen die Kursinhalte
+    Vermittelt tieferes Verständnis der Programmiersprache Java
+    Inkl. Q&A-Session nach dem Kurs, s. Agenda
+
+Beschreibung
+Software-Entwickler, welche die Grundlagen der Programmiersprache Java bereits beherrschen, erweitern in dieser Schulung ihre Kenntnisse und Fertigkeiten für den effizienten Einsatz der Programmier-Plattform. Auf Basis von Java SE 17 (Java Platform, Standard Edition) wollen wir ein besseres Verständnis für die Programmierung mit Java erarbeiten.\
+Die umfangreiche Programmiersprache Java birgt im täglichen Gebrauch einige Fallstricke und Probleme. Bei der Entwicklerarbeit eröffnen sich oftmals tiefergehende Fragestellungen, oder vermeintlich grundlegende Dinge kommen in der Projekt-Praxis häufig zu kurz.
+Anhand umfangreicher, praxisnaher Übungen vermittelt diese Schulung viele weitergehende Themen rund um die Java-Programmierung. Nach der Schulung sind Sie in der Lage, wartbare Anwendungen zu entwickeln und fortgeschrittene Programmiertechniken einzusetzen.
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+
+Agenda
+Objektorientiertes Design mit Java
+    Richtiger Entwurf von Klassen, Konstruktoren und Methoden
+    Korrekte Implementierung der Methoden `equals()`, `hashCode()` und `toString()`
+    Objekt-Erzeugung mittels Factory- und Builder-Entwurfsmuster
+    Verständnis der Objekt-Zerstörung
+    Abwägung zwischen Vererbung und Delegation
+    Unveränderbare Objekte (Immutability)
+    Spezielle Entwurfsmuster für Java-Klassen
+    Objekt-Duplikation (`Cloneable`)
+    Objekt-Serialisierung (`Serializable`)
+Interface-Erweiterungen (`default` / `static` / `private` Methoden)
+Entwicklung und Nutzung von Annotationen
+Datenbank-Nutzung mit Java
+    Überblick über Persistenz-Frameworks
+    Nutzung von Java Database Connectivity (JDBC)
+    Einblick in Java Persistence (JPA)
+Funktionale Programmierung mit Lambda-Ausdrücken
+    Herleitung von Lambda-Ausdrücken aus anonymen inneren Klassen
+    Motivation, Syntax und Möglichkeiten von Lambda-Ausdrücken
+    Vordefinierte und selbstimplementierte Functional-Interfaces
+    Typ-Inferenz und effektiv finale Variablen
+    Methoden- und Konstruktor-Referenzen
+Stream-Verarbeitung von Daten
+    Definition von Streams auf Daten-Objekten
+    Deklarative Abarbeitung von Streams mit Fluent-API
+    Zusammenspiel von Collections, Streams und Lambda-Ausdrücken
+    Zwischenschritte der Stream-Verarbeitung: Intermediate Operations
+    Ergebnis der Stream-Verarbeitung: Terminal Operations
+Verwendung der Klasse `Optional`
+Nebenläufige Programmierung in Java (Concurrency)
+    Grundlagen von Multi-Threading und `Thread`-Programmierung
+    Nutzung des `ExecutorService`
+    Parallele Programmierung mit dem Fork-/Join-Framework
+    Parallelisierung der Stream-Verarbeitung
+    Parallelisierung mit der Klasse `CompletableFuture`
+    Nebenläufigkeit mit Reactive Streams
+Speicherverwaltung der JVM und Synchronisation nebenläufiger Zugriffe
+    Organisation des Speichers, Objekt-Referenzen und Garbage-Collection
+    Java Memory Model und nebenläufiger Zugriff auf Objekte
+    Synchronisations-Mechanismen (`synchronized`, `Lock`, `Semaphore` usw.)
+    Klassen aus den Concurrency Utilities (atomare Datentypen, thread-sichere Collections usw.)
+    Synchronisation von Lazy-Initialization (Double-Check-Lock-Pattern)
+Algebraische Datentypen und Pattern Matching
+    Sealed Classes
+    Records
+    Pattern Matching für `instanceof`
+    Pattern Matching für `switch`
+    Pattern Matching zur Record-Dekonstruktion
+Meta-Programmierung mit Java Reflection
+    Dynamische Programmierung durch Zugriff auf Java-Code zur Laufzeit
+    Dynamische Proxies
+Durch praktische Übungen werden die behandelten Themen eingeübt und vertieft. Zum Aufruf der implementierten Lösungen nutzen wir einfache JUnit-Tests, so dass die Teilnehmer auch gleich einen ersten Einblick in die Welt der Testautomatisierung erhalten. Je nach Interessen der Teilnehmer können die genannten Themen mehr oder weniger vertieft geschult werden. Individuelle Fragestellungen aus dem Projekt-Alltag können nach Möglichkeit aufgegriffen werden.
+
+Q&A-Session nach dem Kurs
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Teilnehmerkreis und Voraussetzungen
+Es werden Vorkenntnisse vorausgesetzt wie sie z.B. in unserem Kurs Schulung: Java Grundlagen (Standard Edition) vermittelt werden.
+Mit dieser Aufbauschulung richten wir uns an Java-Entwickler, welche die Java-Grundlagen bereits gut beherrschen. Ihr Ziel sollte es sein, mit Java effektiv Software zu entwickeln und viele Probleme von vorne herein zu vermeiden. Mit Hilfe des tieferen Verständnisses für die Programmiersprache Java machen Sie einen wesentlichen Schritt auf dem Weg zu einem professionellen Java-Entwickler.
+
+Dauer
+4 Tage

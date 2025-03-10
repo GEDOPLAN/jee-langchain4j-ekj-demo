@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="jakarta.faces.core"
+      xmlns:h="jakarta.faces.html"
+      xmlns:p="http://primefaces.org/ui"
+>
+<h:head>
+</h:head>
+
+<h:body>
+    <h:outputStylesheet library="css" name="styles.css" />
+    <h:outputStylesheet library="css" name="atom-one-dark.css" />
+    <h:outputScript library="js" name="highlight.min.js" target="head"/>
+    <h:outputScript library="js" name="marked.min.js" target="head"/>
+    <h:outputScript library="js" name="purify.min.js" target="head"/>
+    <h:outputScript library="js" name="websockets.js" target="head"/>
+    <h:outputScript target="head" >
+        window.onload = initFaces;
+    </h:outputScript>
+
+    <h1>Faces LangChain4j ChatBot</h1>
+
+    <h:form id="ai-chat-form">
+        <label>
+            Choose the AiService:
+            <h:selectOneMenu id="ai-service-selection" value="#{chatPresenter.aiServiceSelection}">
+                <f:selectItems value="#{chatPresenter.aiServiceSelectionValues}"
+                               var="aiService" itemLabel="#{aiService.uiValue}" itemValue="#{aiService}"/>
+            </h:selectOneMenu>
+        </label>
+
+
+        <div class="chat-container">
+            <div class="chat-history" id="chat-history"></div>
+            <div class="chat-input">
+                <p:inputTextarea placeholder="Type a message..." id="chat-input-text" autoResize="false" value="#{chatPresenter.aiMessage}">
+
+                </p:inputTextarea>
+                <p:commandButton id="send-btn" value="Send Message" action="#{chatPresenter.onMessageListener()}" ajax="true"/>
+            </div>
+        </div>
+
+        <f:websocket channel="aiChannel" onmessage="onWebsocketMessageListener" scope="view" onopen="onWebsocketOpen" onclose="onWebsocketClose" />
+    </h:form>
+
+</h:body>
+</html>

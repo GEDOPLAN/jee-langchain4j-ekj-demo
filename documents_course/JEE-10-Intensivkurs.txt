@@ -1,0 +1,59 @@
+Schulung: Jakarta EE 10 Intensivkurs
+
+Grundlagen der Entwicklung von Enterprise-Anwendungen mit Jakarta EE 10
+
+    Basisbausteine für JEE-Anwendungen und Microservices: JPA, CDI, REST.
+    Umfangreiche Demos und Übungsanteile.
+    Im Kurs wählbare Zielumgebung: WildFly und Open Liberty.
+    Inkl. Q&A-Session nach dem Kurs, s. Agenda.
+
+Beschreibung
+In unserem Kurs lernen Sie, wie komplette Enterprise-Anwendungen (Monolith, Modulith, Microservice) auf Basis von Jakarta EE 10 programmiert werden. Mit RESTful Webservices bauen Sie Schnittstellen für andere Anwendungen oder JavaScript-UIs. Die Persistenz-Schicht bauen Sie mit Hilfe von Jakarta Persistence (früher Java Persistence API bzw. JPA) in Verbindung mit einem O/R Mapper wie EclipseLink oder Hibernate auf. Datenvalidierungen realisieren Sie mit Bean Validation (BV). Anschließend erlernen Sie die Nutzung von CDI Beans, um Businesslogik professionell zu entwickeln und die Komponenten der Anwendung miteinander zu integrieren. Wir gehen auch kurz auf Enterprise Beans (EJB) ein, die in bestehenden Anwendungen häufig noch anstelle von CDI Beans genutzt werden. Darüber hinaus werden die Grundlagen des Microprofile erklärt.
+Jakarta EE – kurz JEE – ist eine Sammlung von Softwarekomponenten und Diensten, die Softwareentwickler bei der Erstellung komplexer und mehrschichtiger Unternehmensanwendungen unterstützt. JEE ist heute ein Projekt der Eclipse Foundation. Zuvor wurde der Standard von Oracle unter dem Namen Java EE – anfänglich auch J2EE – entwickelt. Die im September 2019 erschienene Jakarta EE 8 ist funktionsgleich mit der Java EE 8 von 2017 und wird von allen aktuellen Java-Applikationsservern unterstützt. Das im Dezember 2020 erschienene Release Jakarta EE 9 führt i. W. die Paketnamensänderung von javax.* nach jakarta.* durch, die durch die bei Oracle verbliebenen Namens- und Urheberrechte notwendig war. Jakarta EE 10 wurde im September 2022 veröffentlicht und bildet die Grundlage für diesen Kurs.
+Durch die Standardisierung mit JEE lassen sich Software-Entwicklungszeiten und Kosten deutlich senken. Essentielle Funktionalitäten für die Entwicklung von professionellen Softwareanwendungen wie Security, Persistenz und Dependency Injection bringt JEE bereits mit. Zudem lassen sich Anwendungen sicher, hochverfügbar und skalierbar gestalten. Das ebenfalls bei der Eclipse Foundation beheimatete Projekt MicroProfile definiert ein Subset von JEE-Bestandteilen und ergänzt weitere Dienste, die JEE-Anwendungen leicht und in Cloud-Umgebungen betreibbar machen.
+Die Zielumgebung der Anwendungen können Sie im Kurs frei auswählen oder auch umschalten: Alle Demos und Übungen laufen u. a. auf WildFly (JBoss) und Open Liberty (WebSphere Liberty).
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Agenda
+    Architekturen und Konzepte von JEE
+        Aufbau und Bestandteile von JEE-Anwendungen
+        Full Profile, Web Profile, Micro Profile
+        Klassische Application Server vs. JAR Deployments
+    RESTful Webservices (JAX-RS)
+        REST-Applikationen und –Ressourcen
+        JSON und XML
+        REST Client
+        API Design
+    Jakarta Persistence (JPA)
+        Persistente Klassen und Persistence Units
+        CRUD-Operationen, ID-Generierung
+        Abfragen mit JPQL
+        Transaktionssteuerung
+        Relationen
+        Vererbung
+        Eager und Lazy Loading
+    Bean Validation (BV)
+        Standard-Constraints und Validation API
+        Integration in JPA und CDI
+    Contexts and Dependency Injection (CDI)
+        Injektion von Beans
+        Qualifier und Alternatives
+        Producer und Disposer
+        Kontexte und Scopes
+        Transaktionssteuerung
+        Events und Observer
+        Vergleich von CDI und Jakarta Enterprise Beans (EJB)
+    MicroProfile
+        API-Veröffentlichung mit OpenAPI
+        Integration in Betriebs-Umgebungen mit Config, Health, Monitoring
+
+Die Themen werden ausführlich präsentiert und mit übergreifenden Übungen vertieft.
+Q&A-Session nach dem Kurs
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Teilnehmerkreis und Voraussetzungen
+Java-Kenntnisse werden vorausgesetzt.
+Dieser Kurs richtet sich an Software-Entwickler*innen, die die serverseitige Anwendungsentwicklung mit JEE kompakt und schnell erlernen möchten.
+
+Dauer
+4 Tage

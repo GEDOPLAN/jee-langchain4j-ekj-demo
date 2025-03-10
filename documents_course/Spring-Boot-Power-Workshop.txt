@@ -1,0 +1,65 @@
+Schulung: Spring Boot Power Workshop
+
+Entwicklung professioneller Unternehmensanwendungen und (Micro) Services mit Spring Boot
+
+    Grundlagenkurs: Grundlegende Bausteine und Techniken (Enterprise-Anwendung oder Microservices).
+    Erstellung von kompletten Spring-Boot-Anwendungen mit REST, Spring-Core, JPA und Spring Data.
+    Inkl. Q&A-Session nach dem Kurs, s. Agenda.
+
+Beschreibung
+Dieses Seminar führt in die Anwendungsentwicklung mit Spring (Boot) ein. Dabei werden die grundlegenden Bausteine und Techniken für die Entwicklung von Enterprise-Anwendungen oder Microservices mit Spring umfangreich erläutert. Alle Themen werden durch viele praktische Beispiele und Übungen vertieft.
+In unserem Kurs lernen Sie, eine komplette Spring-Boot-Anwendung zu erstellen. Sie setzen eine Anwendung mithilfe von Spring Boot auf und konfigurieren diese. Für die Schnittstellen zu anderen Anwendungen schreiben Sie REST-Services mit Spring-Web. Unterschiedliche Komponenten der Anwendung verknüpfen Sie über Dependency-Injektion (Spring-Core). Die Persistenzschicht bilden Sie mithilfe von JPA (Hibernate) und Spring Data Repositories. Um die Anwendung zu überwachen, nutzen Sie die REST-Endpoints des Actuators. Das Testen der Anwendung führen Sie mithilfe von JUnit 5, SpringBootTest und MockMvc durch.
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Agenda
+Einführung Spring Boot
+    Aufsetzen von Projekten
+    Application-Klasse
+    Spring Boot Starter
+    Konfiguration
+    Logging
+    Dev-Tools
+    Spring-Boot-Maven-Plugin
+RESTful Webservices (Spring Web)
+    REST Prinzipien
+    RestController
+    OpenAPI
+    Rest Client
+    Tests mit MockMvc
+    Ausblick Webflux
+Dependency Injection (Spring Core)
+    DI-Container
+    Injektion von Beans
+    Qualifier
+    Austausch von Implementierungen
+    Scopes
+    AOP
+    Events und Listener
+Persistenz mit JPA (Hibernate)
+    Persistente Klassen
+    Spring Data JPA-Repositories
+    CRUD-Operationen, ID-Generierung
+    Abfragen (JPQL und Query-Methoden)
+    Transaktionssteuerung
+    Relationen
+    Vererbung
+    Eager und Lazy Loading
+Bean Validation
+    Standard-Constraints und Validation API
+    Integration in Spring und JPA
+Überwachen mit Actuator
+    Health Checks
+    Metriken (Micrometer)
+    Web UI (Spring-Boot-Admin)
+Ausblick auf das weitere Spring-Ökosystem
+Die Themen werden ausführlich präsentiert und mit übergreifenden Übungen vertieft.
+
+Q&A-Session nach dem Kurs
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Teilnehmerkreis und Voraussetzungen
+Dieser Kurs richtet sich an Software-Entwickler*innen, die Unternehmensanwendungen oder Microservices mit Spring Boot entwickeln möchten.
+Java-Kenntnisse werden vorausgesetzt.
+
+Dauer
+4 Tage

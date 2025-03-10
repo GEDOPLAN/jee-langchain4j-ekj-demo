@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/atom-one-dark.css">
+    <script src="resources/js/highlight.min.js"></script>
+    <script src="resources/js/purify.min.js"></script>
+    <script src="resources/js/marked.min.js"></script>
+    <script src="resources/js/websockets.js"></script>
+</head>
+<body>
+<h1>ChatBot</h1>
+<div class="chat-container">
+    <div class="chat-history" id="chat-history"></div>
+    <div class="chat-input">
+        <textarea placeholder="Schreibe eine Nachricht..." id="chat-input-text" rows="1"></textarea>
+        <button id="send-btn" onclick="sendMessage(); return false;">Nachricht senden</button>
+    </div>
+</div>
+<script>
+    initPlain("/ws/chat");
+</script>
+</body>
+</html>

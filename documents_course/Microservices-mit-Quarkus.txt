@@ -1,0 +1,59 @@
+Schulung: Microservices mit Quarkus – kompakt
+
+Jakarta EE mit MicroProfile kombinieren, um Microservices und verteilte Systeme für Quarkus zu entwickeln
+
+    Ergänzung von JEE-Anwendungen um MicroProfile-Bausteine
+    Entwicklung von Services mit Quarkus
+    Quarkus und Docker
+    Inkl. Q&A-Session nach dem Kurs, s. Agenda
+
+
+Beschreibung
+In diesem Seminar lernen Sie, wie JEE-Anwendungen um MicroProfile-Bausteine ergänzt werden können, um verteilte Services zu entwickeln:
+Mit den MicroProfile-Anteilen Config, Health und Monitoring machen Sie Ihre Services bereit für den Betrieb in Container-Umgebungen wie bspw. Kubernetes.
+    Sie entwerfen mehrere Services auf Basis von JEE und MicroProfile, die miteinander kollaborieren.
+    Zur Kommunikation zwischen den Services lernen Sie Rest Client und asynchrones Messaging kennen.
+    Mit MicroProfile Tracing und Fault Tolerance sorgen Sie für Nachvollziehbarkeit und Fehlertoleranz.
+    Sie setzen JWT Authentication für Security ein.
+    Sie erlernen die Grundlagen von Docker und verpacken Ihre Quarkus-Anwendungen in Images.
+Für die Services setzen Sie im Kurs das von Red Hat als Open Source in den Markt gebrachte Server Framework Quarkus ein. Es ist eine gute Alternative zu Spring Boot oder klassischen JEE-Servern. Quarkus basiert auf den Standards Jakarta EE und MicroProfile, die auch von klassischen Servern wie WildFly oder OpenLiberty implementiert werden. Somit können Basistechniken und Architekturentscheidungen unabhängig von der Zielumgebung genutzt werden. Mit Quarkus erstellen Sie leichtgewichtige Microservices oder Self-contained Systems und nutzen dabei weiter Ihr Wissen über Jakarta EE (früher Java EE / J2EE).
+MicroProfile ist ein bei der Eclipse Foundation beheimatetes Projekt, das sich zum Ziel gesetzt hat, JEE zu ergänzen und insbesondere die für Cloud-Umgebungen notwendigen Features bereitzustellen.
+In der Cloud – aber nicht nur da – laufen Anwendungen häufig als Docker-Container. Nach einer kurzen Einführung lassen Sie die im Kurs entwickelten Services in Docker laufen.
+Die Kursthemen werden umfangreich präsentiert und durch praktische Übungsaufgaben vertieft. Unsere erfahrenen Trainer kommen aus der Softwareentwicklungspraxis und führen Sie in diesem kompakten Seminar mit hohem Praxisbezug durch die oben genannten Bestandteile.
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Agenda
+Überblick über JEE und MicroProfile
+    Aufbau und Bestandteile von JEE-Anwendungen
+    MicroProfile
+Einführung in Quarkus
+    Entstehung, Abgrenzung zu WildFly und Thorntail
+    Bootstrapping, Extensions
+    Developer Mode
+    Konfiguration
+    Logging
+    Testing mit JUnit, @QuarkusTest und RestAssured
+Jakarta EE in Quarkus
+    Quick Refresh von JPA, CDI, BV, REST
+    Besonderheiten der Nutzung in Quarkus
+MicroProfile
+    API-Veröffentlichung mit OpenAPI
+    Integration in Betriebs-Umgebungen mit Config, Health, Monitoring
+    Service-Kommunikation mit Rest Client
+    Messaging mit AMQP und Kafka
+    Aufrufverfolgung mit Tracing
+    Fault Tolerance
+    JWT Authentication
+Containerisierte Betriebsumgebung
+    Kurze Einführung in Docker
+    Quarkus-Anwendungen in Docker-Images
+Die Themen werden ausführlich präsentiert und mit übergreifenden Übungen vertieft.
+
+Q&A-Session nach dem Kurs
+Wir bieten bei dem Kurs allen Teilnehmern im Nachgang eine individuelle Q&A-Session für Fragen rund um das Thema an. Es sind dabei auch alle interessierte Kollegen eingeladen. Dauer: ca. 1 Stunde, online.
+
+Teilnehmerkreis und Voraussetzungen
+Dieser Kurs richtet sich an Software-Entwickler, Projektleiter und Architekten mit fundierten Kenntnissen von Jakarta EE (aka Java EE), die MicroServices und Self-contained Systems mit Quarkus entwickeln wollen.
+
+Dauer
+4 Tage

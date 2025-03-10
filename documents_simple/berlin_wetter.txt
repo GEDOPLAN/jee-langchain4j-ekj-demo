@@ -1,0 +1,5 @@
+Wetterbericht Berlin:
+
+Heute: 14°C/25°C sonnig
+Morgen: 15°C/26°C teilweise bewölkt
+Übermorgen: 14°C/24°C meist sonnig
